@@ -1,0 +1,75 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.personaldata {
+    color: whitesmoke;
+    font-size: 32px;
+    padding: 8px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 1mm;
+    display: inline-block;
+    margin-top: -10cm;
+    margin-left: 20cm;
+    display: inline-block;
+    background-color: #03989e;
+    width: 25%;
+    height: auto;
+    line-height: 200%;
+    margin-right: 0;
+}
+#profilbild img {    
+    width: 25%;
+    height: auto;
+    background-color: #03989e;
+   
+}
+
+#profilbild {
+    width: 5;
+    height: auto;
+}
+#top {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #03989e;
+
+}
+
+#navigation a{
+    color:black;
+    padding: 10px;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+#navigation a:hover {
+    color: black;
+}
+
+#image img{
+    width: 100%;
+    height: auto;
+}
+
+#main{
+    max-width: 800px;
+    margin:auto;
+}
+
+#footer {
+    text-align: center;
+    color: #03989e;
+    padding: 16px;
+}
+.logo{
+    float: center;
+    padding: 20px;
+    width: 20%;
+    height: auto;
+}
+.personaldata p {
+    font-size: 20px;
+    line-height: 120%;
+}
