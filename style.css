@@ -5,20 +5,19 @@ body{
 }
 .personaldata {
     color: whitesmoke;
-    font-size: 32px;
+    font-size: 2vw;
     padding: 8px;
-    margin-top: 16px;
+    margin-top: 100vw;
     font-weight: bold;
     letter-spacing: 1mm;
     display: inline-block;
-    margin-top: -350px;
-    margin-left: 20cm;
+    margin-top: -50%;
+    margin-left: 20%;
     display: inline-block;
     background-color: #03989e;
     width: 50%;
     height: auto;
     line-height: 200%;
-    margin-right: 5cm;
     vertical-align:1cm;
 
 }
@@ -39,14 +38,12 @@ body{
     text-align: center;
     color: whitesmoke;
     background-color: #03989e;
-    
-
 }
 
 #navigation a{
     color:black;
     padding: 20px;
-    font-size: 28px;
+    font-size: 200%;
     color: whitesmoke;
 }
 
@@ -55,13 +52,23 @@ body{
 }
 
 #image img{
+    
     width: 100%;
     height: auto;
+}
+
+#picture img {
+    width: 15%;
+    height: auto;
+    margin-right: 60vw;
+    margin-top: 5vw;
+   
 }
 
 #main{
     max-width: 800px;
     margin:auto;
+    font-size: 20px;
 }
 
 #footer {
@@ -70,15 +77,15 @@ body{
     padding: 16px;
 }
 .logo{
-    float: center;
+    float: auto;
     width: 15cm;
     padding-top: 1cm;
     padding-right: 1cm;
 }
 .personaldata p {
-    font-size: 25px;
+    font-size: 2.2vw;
     line-height: 150%;
-    vertical-align: -10%;
+    vertical-align: 50%;
     color: whitesmoke;
 }
 #border {
