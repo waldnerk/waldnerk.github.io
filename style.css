@@ -1,6 +1,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    
 }
 .personaldata {
     color: whitesmoke;
@@ -10,36 +11,41 @@ body{
     font-weight: bold;
     letter-spacing: 1mm;
     display: inline-block;
-    margin-top: -10cm;
+    margin-top: -350px;
     margin-left: 20cm;
     display: inline-block;
     background-color: #03989e;
-    width: 25%;
+    width: 50%;
     height: auto;
     line-height: 200%;
-    margin-right: 0;
+    margin-right: 5cm;
+    vertical-align:1cm;
+
 }
 #profilbild img {    
-    width: 25%;
+    width: 20%;
     height: auto;
     background-color: #03989e;
+    vertical-align: 100px;
+    padding-top: 5cm;
    
 }
 
 #profilbild {
-    width: 5;
+    width: 5%;
     height: auto;
 }
 #top {
     text-align: center;
     color: whitesmoke;
     background-color: #03989e;
+    
 
 }
 
 #navigation a{
     color:black;
-    padding: 10px;
+    padding: 20px;
     font-size: 28px;
     color: whitesmoke;
 }
@@ -65,11 +71,16 @@ body{
 }
 .logo{
     float: center;
-    padding: 20px;
-    width: 20%;
-    height: auto;
+    width: 15cm;
+    padding-top: 1cm;
+    padding-right: 1cm;
 }
 .personaldata p {
-    font-size: 20px;
-    line-height: 120%;
+    font-size: 25px;
+    line-height: 150%;
+    vertical-align: -10%;
 }
+#border {
+    outline: 13px solid #FFFFFF;
+    outline-offset: 0px;
+    }
