@@ -5,12 +5,10 @@ body{
 }
 .personaldata {
     color: whitesmoke;
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 8px;
-    /*margin-top: 100vw;*/
     font-weight: bold;
     letter-spacing: 1mm;
-    /*display: inline-block;*/
     margin-top: -30%;
     margin-left: 20%;
     display: inline-block;
@@ -19,31 +17,16 @@ body{
     height: auto;
     line-height: 200%;
 }
-/*
-#profilbild img {    
-    width: 20%;
-    height: auto;
-    background-color: #03989e;
-    vertical-align: 100px;
-    padding-top: 5cm;
-   
-}
 
-#profilbild {
-    width: 5%;
-    height: auto;
-}
-*/
 #top {
     text-align: center;
-    /*color: whitesmoke;*/
     background-color: #03989e;
 }
 
 #navigation a{
     color:black;
     padding: 20px;
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     color: whitesmoke;
 }
 
@@ -58,7 +41,7 @@ body{
 }
 
 #picture img {
-    width: 15%;
+    width: 20%;
     height: auto;
     margin-right: 60vw;
     margin-top: 5vw;
@@ -83,7 +66,7 @@ body{
     padding-right: 1cm;
 }
 .personaldata p {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     line-height: 150%;
     vertical-align: 50%;
     color: whitesmoke;
@@ -92,3 +75,29 @@ body{
     outline: 10px solid #FFFFFF;
     outline-offset: 0px;
     }
+
+    .myButton {
+        box-shadow:inset 0px 1px 0px 0px #03989e;
+        background:linear-gradient(to bottom, #FFFFFF 5%, #FFFFFF 100%);
+        background-color:#03989e;
+        border-radius:25px;
+        border:1px solid #03989e;
+        display:inline-block;
+        cursor:pointer;
+        color:#03989e;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:3px 46px;
+        text-decoration:none;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #03989e 5%, #03989e 100%);
+        background-color:#03989e;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+    
