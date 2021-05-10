@@ -1,103 +1,98 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
 }
 .personaldata {
-    color: whitesmoke;
-    font-size: 2vw;
-    padding: 8px;
-    font-weight: bold;
-    letter-spacing: 1mm;
-    margin-top: -30%;
-    margin-left: 20%;
-    display: inline-block;
-    background-color: #03989e;
-    width: 50%;
-    height: auto;
-    line-height: 200%;
+  color: whitesmoke;
+  font-size: 2vw;
+  padding: 8px;
+  font-weight: bold;
+  letter-spacing: 1mm;
+  margin-top: -30%;
+  margin-left: 20%;
+  display: inline-block;
+  background-color: #03989e;
+  width: 50%;
+  height: auto;
+  line-height: 200%;
 }
 
 #top {
-    text-align: center;
-    background-color: #03989e;
+  text-align: center;
+  background-color: #03989e;
 }
 
-#navigation a{
-    color:black;
-    padding: 20px;
-    font-size: 1vw;
-    color: whitesmoke;
+#navigation a {
+  color: black;
+  padding: 20px;
+  font-size: 1vw;
+  color: whitesmoke;
 }
 
 #navigation a:hover {
-    color: black;
+  color: black;
 }
 
-#image img{
-    
-    width: 60%;
-    height: auto;
+#image img {
+  width: 60%;
+  height: auto;
 }
 
 #picture img {
-    width: 10%;
-    height: auto;
-    margin-right: 60vw;
-    margin-top: 5vw;
-   
+  width: 10%;
+  height: auto;
+  margin-right: 60vw;
+  margin-top: 5vw;
 }
 
-#main{
-    max-width: 800px;
-    margin:auto;
-    font-size: 20px;
+#main {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
 }
 
 #footer {
-    text-align: center;
-    color: #03989e;
-    padding: 16px;
+  text-align: center;
+  color: #03989e;
+  padding: 16px;
 }
-.logo{
-    float: auto;
-    width: 15cm;
-    padding-top: 1cm;
-    padding-right: 1cm;
+.logo {
+  float: auto;
+  width: 15cm;
+  padding-top: 1cm;
+  padding-right: 1cm;
 }
 .personaldata p {
-    font-size: 1.5vw;
-    line-height: 150%;
-    vertical-align: 50%;
-    color: whitesmoke;
+  font-size: 1.5vw;
+  line-height: 150%;
+  vertical-align: 50%;
+  color: whitesmoke;
 }
 #border {
-    outline: 10px solid #FFFFFF;
-    outline-offset: 0px;
-    }
+  outline: 10px solid #ffffff;
+  outline-offset: 0px;
+}
 
-    .myButton {
-        box-shadow:inset 0px 1px 0px 0px #03989e;
-        background:linear-gradient(to bottom, black 5%, black 100%);
-        background-color:#03989e;
-        border-radius:25px;
-        border:1px solid #03989e;
-        display:inline-block;
-        cursor:pointer;
-        color:#03989e;
-        font-family:Arial;
-        font-size:5px;
-        font-weight:bold;
-        padding:3px 46px;
-        text-decoration:none;
-    }
-    .myButton:hover {
-        background:linear-gradient(to bottom, #03989e 5%, #03989e 100%);
-        background-color:#03989e;
-    }
-    .myButton:active {
-        position:relative;
-        top:1px;
-    }
-    
-    
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #03989e;
+  background: linear-gradient(to bottom, black 5%, black 100%);
+  background-color: #03989e;
+  border-radius: 25px;
+  border: 1px solid #03989e;
+  display: inline-block;
+  cursor: pointer;
+  color: #03989e;
+  font-family: Arial;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 3px 46px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #03989e 5%, #03989e 100%);
+  background-color: #03989e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
